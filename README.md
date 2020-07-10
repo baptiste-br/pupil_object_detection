@@ -15,3 +15,13 @@ Installation :
 - Then open the command prompt (by typing cmd in the file adress bar in the explorer), and type git clone https://github.com/baptiste-br/pupil_object_recognition.git
 - You don't need git you can simply download the detection_plugin file and place it in the plugins folder next to the darknet folder.
 - Open Pupil Capture again, make sure the Pupil Core are connected to the computer and then in the plugin manager you should have at the bottom the Yolov4 Detection Plugin.
+
+Description : 
+1. You can choose between 2 options, "speed" and "precision" : 
+  -Speed option gives you a really fluid analysis of the environnement but is not very accurate.
+  -Precision gives you a much more confident detection, but the video will be reduced to around 15 fps due to longer analysis.
+2. You have the "Load model" button. When you click it, hte model used for detection will be loaded. Note that when you are using Precision setting, it takes 10 to 15 seconds to load.
+3. You can check the option "open in new window" if you want to open a new window a run the object detection in it.
+4. You can check "only detect focused object" to only have one object to be detected and only if you are looking at it. The object you are looking at will be in a red box
+5. You need to check "Activate object detection" if you want the start detecting object on the video stream.
+ When detection is activated, you will have blue boxes around objects that are detected, with at the top of the box the name of the object and the confidence score associated. Note that if you check "only detect focused object" you will not see these blue boxes, only the red one.
