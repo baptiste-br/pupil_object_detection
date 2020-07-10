@@ -3,7 +3,7 @@ Implementing object recognition based on focus on the Pupil Core headset from Pu
 
 Installation : 
 - follow this tutorial about the prerequisites for Yolo, open CV and using these softwares with CUDA with this tutorial from Augmented Startups : 
-  https://youtu.be/5pYh1rFnNZs
+  https://youtu.be/5pYh1rFnNZs. You need to watch the 2 first episode of the series.
 - Once your installation of Yolo is complete, download weights and cfg files for the YOLO model we are using on https://github.com/AlexeyAB/darknet.
   Download yolov4-tiny.weights and yolov4-tiny.cfg for fast detection and yolov4.weights and yolov4.cfg for precise detection
   Place the .weights file in darknet\build\darknet\x64 
