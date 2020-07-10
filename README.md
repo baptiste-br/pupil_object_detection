@@ -1,5 +1,5 @@
-# pupil_object_recognition
-Implementing object recognition based on focus on the Pupil Core headset from Pupil Labs.
+# Plugin for Pupil Capture : Focused object detection
+Implementing object recognition based on where you are looking at with the Pupil Core headset from Pupil Labs.
 
 Installation : 
 - follow this tutorial about the prerequisites for Yolo, open CV and using these softwares with CUDA with this tutorial from Augmented Startups : 
