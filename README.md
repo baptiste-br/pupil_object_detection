@@ -10,8 +10,7 @@ Installation :
   and the .cfg files in darknet\build\darknet\x64\cfg.
 - Then download the compiled version of Pupil Capture from https://pupil-labs.com/products/core/ and install it like a classic Windows application
 - Open Pupil Capture and try it, this step is just so that it creates the setting folder.
-- Go to C:\User\\"your user name"\pupil_capture_settings, then open the plugins folder.
-- There you have to copy your darknet folder
+- Go to C:\User\\"your user name"\pupil_capture_settings, then open the plugins folder and copy your darknet folder there.
 - Then open the command prompt (by typing cmd in the file adress bar in the explorer), and type git clone https://github.com/baptiste-br/pupil_object_recognition.git
 - You don't need git you can simply download the detection_plugin file and place it in the plugins folder next to the darknet folder.
 - Open Pupil Capture again, make sure the Pupil Core are connected to the computer and then in the plugin manager you should have at the bottom the Yolov4 Detection Plugin.
